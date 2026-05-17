@@ -52,6 +52,10 @@ Install it with [uv][]:
     $ uv tool install turnt
 
 Then run all the tests by typing `make test`.
+You may need to install the typechecker and the typescript compiler to run all the tests:
+
+    $  deno install -g brilck.ts
+    $  deno install -g --allow-env --allow-read ts2bril.ts
 
 [pip]: https://packaging.python.org/tutorials/installing-packages/
 [cs6120]: https://www.cs.cornell.edu/courses/cs6120/2020fa/
